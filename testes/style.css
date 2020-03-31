@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    color: white;
+    text-shadow: floralwhite;
+    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.39);
+    background-size: cover;
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/428-jackanstey-rp-october2019-0185-kwan-a.jpg?w=800&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=0285928e9a5b4cea289c21089b7a6dfd);
+}
+h1 {
+    color: rgb(247, 244, 244);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height:100px;
+
+}
+.heading {
+    text-transform: uppercase;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.1px;
+    font-weight: bold;
+}
+img {
+    opacity: 0.9;
+    background: linear-gradient(yellow,green,blue,darkblue,rgb(12, 9, 17),black);
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    min-height: 200px;
+}
+h2 {
+    color: blue;
+}
+.link{
+    border-style: dashed;
+    border-width: thin;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 200px;
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.411) ;
+}
+ul li{
+    list-style: none;
+}
+ol li{
+    list-style: upper-roman;
+    list-style-position: inside;
+}
+a:link, a:visited{
+    border-style: dashed;
+    border-width: thin;
+    opacity: 1;
+    color: red;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    background-color: rgba(8, 8, 8, 0.247);
+}
+a:hover, a:active{
+    background-color: rgba(173, 177, 177, 0.226);
+    color: black;
+}
