@@ -1,9 +1,10 @@
+
 *{
     box-sizing: border-box;
 }
 body {
     width: 100%;
-    min-width: 665px;
+    min-width: 724px;
     margin: 0px;
     text-align: center;
     color: white;
@@ -23,7 +24,7 @@ h1 {
 }
 #img {
     margin-top: 0;
-    
+    padding: 0;
 }
 .heading {
     text-transform: uppercase;
@@ -50,6 +51,10 @@ h2 {
     max-width: 200px;
     opacity: 0.9;
     background-color: rgba(0, 0, 0, 0.411) ;
+}
+p{
+    text-align: left;
+    padding: 10px;
 }
 ul li{
     list-style: none;
@@ -82,14 +87,33 @@ ol li{
     list-style: upper-roman;
     list-style-position: inside;
 }
+#exit {
+    text-align: center;
+    background-color: rgba(8, 8, 8, 0.548);
+    margin-bottom: 0;
+}
+#exlink {
+    width: 100%;
+    background-color: rgba(8, 8, 8, 0.548);
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#exlink li{
+    display: inline;
+    margin: 6%;
+}
+ul li#allign {
+    margin-left: 10%;
+    margin-right: 2%;
+}
 #exlink a:link,#exlink a:visited{
     border-style: dashed;
-    border-width: thin;
+    border-radius: 10%;
+    border-width: 2px;
     opacity: 1;
     color: red;
     text-decoration: none;
-    width: 100px;
-    text-align: center;
     background-color: rgba(8, 8, 8, 0.247);
 }
 #exlink a:hover,#exlink a:active{
@@ -100,9 +124,56 @@ ol li{
     background-color: rgba(0, 0, 0, 0.6);
 }
 #section1 {
-    width: 50%;
     float:left;
 }
-#rig {
-    clear: left;
+#section2 {
+    float:left;
+}
+.clear {
+    clear: both;
+}
+section {
+    margin: 5%;
+    width: 40%;
+    height: auto;
+    background-color: rgb(8, 8, 10);
+    padding: 20px;
+    text-align: left;
+}
+.third {
+    width: 31%;
+    float: left;
+    padding: 20px;
+    text-align: left;
+    background-color: rgba(53, 4, 4, 0.623);
+    margin: 1%;
+}
+#list {
+    background-color: rgba(2, 2, 34, 0.616);
+    margin-left: auto;
+    width: 300px;
+    padding: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height: auto;
+}
+@media (max-width:994px) {
+    .consol-6 {
+        float: left;
+        width:48%;
+        height:250px; 
+        padding: 20px;
+        background-color: rgba(8, 8, 8, 0.548);
+        margin: 1%;
+    }
+}
+@media (min-width:995px) {
+    .consol-3 {
+        float: left;
+        width:23%; 
+        height:auto; 
+        padding: 20px;
+        background-color: rgba(8, 8, 8, 0.548);
+        margin: 1%;
+    }
 }
